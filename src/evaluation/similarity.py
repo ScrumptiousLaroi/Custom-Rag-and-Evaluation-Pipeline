@@ -1,5 +1,5 @@
 import numpy as np
-
+from sklearn.metrics.pairwise import cosine_similarity as sklearn_cosine_similarity
 def cosine_similarity(generated_answer: str, expected_answer: str, model) -> float:
     """
     Compute cosine similarity between generated answer and expected answer for qualitative evaluation.
@@ -15,4 +15,4 @@ def cosine_similarity(generated_answer: str, expected_answer: str, model) -> flo
 
     gen_vec, exp_vec = vectors[0], vectors[1]
 
-    return float(np.dot(gen_vec, exp_vec))
+    return float(sklearn_cosine_similarity([gen_vec], [exp_vec])[0][0])
