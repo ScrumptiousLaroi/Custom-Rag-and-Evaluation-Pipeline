@@ -2,7 +2,7 @@ import numpy as np
 from src.retrieval.embedding import get_embedding_model, embed_chunks, embed_query
 
 
-def retrieve_top_k(query: str, chunks: list[dict], chunk_embeddings: np.ndarray, model, top_k: int = 2) -> list[dict]:
+def retrieve_top_k(query: str, chunks: list[dict], chunk_embeddings: np.ndarray, model, top_k: int = 3) -> list[dict]:
     if not query.strip():
         return []
     if len(chunks) == 0:

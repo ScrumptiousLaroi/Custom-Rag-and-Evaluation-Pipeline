@@ -12,7 +12,7 @@ model = get_embedding_model()
 chunk_texts, chunk_embeddings = embed_chunks(chunks, model)
 
 
-query = "Is high level screen time better or risks explained in the document?"
+query = " Which social media platform is associated with the highest average anxiety scores among teens? "
 results = retrieve_top_k(query, chunks, chunk_embeddings, model, top_k=2)
 
 context = build_context_from_results(results)

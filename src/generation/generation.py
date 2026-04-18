@@ -27,6 +27,7 @@ def build_grounded_prompt(question: str, context: str) -> str:
     prompt = f"""
     You are a grounded assistant. Answer the questions question using ONLY the context provided below.
     Do not use external knowledge. If the answer cannot be found in the context, respond: "Insufficient context from retrieved documents."
+    Make sure to use only retrived content and you must output atleast 1 - 2 full sentences, and include all relevant details from the context. If the context has multiple values, mention them all.
 
     Context:
     {context}
@@ -46,7 +47,7 @@ def generate_answer(question: str, context: str, model_name: str = "google/flan-
     from transformers import pipeline
 
     prompt = build_grounded_prompt(question, context)
-    generator = pipeline("text2text-generation", model=model_name)
-    result = generator(prompt, max_length=512, do_sample=False)
+    generator = pipeline("text2text-generation", model=model_name, min_length=20)
+    result = generator(prompt, max_new_tokens=1000, do_sample=False)
 
     return result[0]["generated_text"]
