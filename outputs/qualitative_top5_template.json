@@ -1,0 +1,70 @@
+{
+  "assessment_name": "Qualitative Evaluation Template",
+  "rubric_scale": {
+    "coherence": "1-4",
+    "completeness": "1-4",
+    "factual_correctness": "1-4"
+  },
+  "items": [
+    {
+      "question_id": "Q01",
+      "question": "Which social media platform is associated with the highest average anxiety scores among teens?",
+      "expected_answer": "According to the dataset, TikTok-exclusive users demonstrate the highest average anxiety levels at 5.75/10. This exceeds the anxiety levels reported for Instagram-only users (5.67/10) and those using multiple platforms (5.49/10).",
+      "generated_answer": "\"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48).",
+      "qualitative_scores": {
+        "coherence": null,
+        "completeness": null,
+        "factual_correctness": null
+      },
+      "reviewer_note": ""
+    },
+    {
+      "question_id": "Q02",
+      "question": "What is the specific statistical correlation between sleep hours and the presence of a depression label?",
+      "expected_answer": "There is a negative correlation coefficient of -0.19 between sleep hours and the presence of a depression label. This represents the strongest correlation among all behavioral variables in the dataset.",
+      "generated_answer": "A negative correlation coefficient of -0.19 exists between sleep hours and the presence of a depression label.",
+      "qualitative_scores": {
+        "coherence": null,
+        "completeness": null,
+        "factual_correctness": null
+      },
+      "reviewer_note": ""
+    },
+    {
+      "question_id": "Q03",
+      "question": "For teens with the highest tier of pre-sleep screen time, what is the reported average addiction level?",
+      "expected_answer": "Teens in the highest bracket of pre-sleep screen time (2.5 to 3.0 hours) report an average addiction level of 5.78. This group also shows a higher incidence of depression markers compared to lower-usage groups.",
+      "generated_answer": "5.78, compared to 5.40 for those with less than 1 hour. - The incidence of the depression label is approximately 13% higher in the 2-3 hour screen time group than in the 1-2 hour group. - Academic performance shows a slight downward trend as pre-sleep screen time increases. - Over 60% of teens with high addiction levels (8-10) report at least 2.0 hours of screen time before bed. - For every one-hour decrease in sleep, there is a measurable upward trend in addiction levels and anxiety scores. - Individuals reporting the maximum sleep duration (9.0 hours) show a mean anxiety level approximately 15% lower than those reporting the minimum.",
+      "qualitative_scores": {
+        "coherence": null,
+        "completeness": null,
+        "factual_correctness": null
+      },
+      "reviewer_note": ""
+    },
+    {
+      "question_id": "Q04",
+      "question": "What is the average daily physical activity duration for adolescents identified in the \"High-Risk\" profile?",
+      "expected_answer": "Adolescents categorized as \"High-Risk\" report an average of 0.95 hours of physical activity per day. This is lower than the overall dataset mean of 1.01 hours.",
+      "generated_answer": "1.01 hours vs 0.95 hours. - The GPA of the low-risk group is significantly higher (3.2 vs 2.6).",
+      "qualitative_scores": {
+        "coherence": null,
+        "completeness": null,
+        "factual_correctness": null
+      },
+      "reviewer_note": ""
+    },
+    {
+      "question_id": "Q05",
+      "question": "Compare the average anxiety and stress levels of teens with \"low\" social interaction levels to the dataset means.",
+      "expected_answer": "Teens with \"low\" social interaction levels report average anxiety of 5.52 and stress of 5.35. These are the lowest averages among the three interaction categories (High, Medium, Low).",
+      "generated_answer": "Key Findings [DOC_05_chunk_02] Key Findings: - Teens with \"high\" interaction levels have the highest average anxiety (5.70) and stress (5.51). - \"Low\" interaction levels correlate with the lowest average anxiety (5.52) and stress (5.35). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48). - \"Medium\" interaction serves as a middle ground (Anxiety: 5.68, Stress: 5.48).",
+      "qualitative_scores": {
+        "coherence": null,
+        "completeness": null,
+        "factual_correctness": null
+      },
+      "reviewer_note": ""
+    }
+  ]
+}
